@@ -153,7 +153,11 @@
         border-radius: 60px;
         background-color: #FFFFFF;
     }
-    &__block-remove{
+    &__img{
+        width: 100%;
+
+    }
+        &__block-remove{
         grid-column: span 2;
     }
     &__block-link{
@@ -482,6 +486,7 @@
         cursor: pointer;
         transition: opacity 1s ease;
     }
+    
 }
 #tab-btn-1:checked+#content-1,
 #tab-btn-2:checked+#content-2,
