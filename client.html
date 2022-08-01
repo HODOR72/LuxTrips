@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/client.css">
+    <meta name="format-detection" content="telephone=no">
+    <title>LuxTrips</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__wrapper">
+            <a href="#contact" class="header__link-mobile js-scroll">Call me</a>
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link"><img src="svg/logo.svg" alt="Header Logo" class="header__logo-img"></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="luxury.html" class="header__nav-link">Luxury packages</a></li>
+                    <li class="header__nav-item"><a href="book.html" class="header__nav-link">Book with us</a></li>
+                    <li class="header__nav-item"><a href="whylux.html" class="header__nav-link">Why Lux Trips</a></li>
+                    <li class="header__nav-item"><a href="contact.html" class="header__nav-link">Contact</a></li>
+                    <li class="header__nav-item"><a href="client.html" class="header__nav-link">Client Area</a></li>
+                </ul>
+            </nav>
+            <div class="header__link">
+                <a href="relations.html"><img src="/svg/button call me.svg" alt="Call me back"></a>
+            </div>
+            <div class="header__burger burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="client">
+            <div class="container">
+                <h1 class="client__title">Client Area</h1>
+                <div class="client__blocks client__blocks-desktop">
+                    <aside class="client__info">
+                        <div class="client__info_block client__info-active">
+                            <label for="tab-btn-1" class="client__info-text ">Personal details</label>
+                        </div>
+                        <div class="client__info_block">
+                            <label for="tab-btn-2" class="client__info-text">Preferences</label>
+                        </div>
+                        <div class="client__info_block">
+                            <label for="tab-btn-3" class="client__info-text">Payment Details</label>
+                        </div>
+                        <div class="client__info_block">
+                            <label for="tab-btn-4" class="client__info-text">My Bookings</label>
+                        </div>
+                        <div class="client__info_block">
+                            <label for="tab-btn-5" class="client__info-text">My documents</label>
+                        </div>
+                    </aside>
+                    <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                    <div class="client__block" id="content-1">
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Name</p>
+                            <input type="name" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your name">
+                            <p class="client__block-edit client-link-edit">Edit</з>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Email address</p>
+                            <input type="email" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your email">
+                            <p class="client__block-edit client-link-edit">Edit</з>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Phone number</p>
+                            <input type="tel" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your phone number">
+                            <p class="client__block-edit client-link-edit">Edit</з>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Date of birth</p>
+                            <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your date of birthday">
+                            <p class="client__block-edit client-link-edit">Edit</з>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Nationality</p>
+                            <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your nationality" >
+                            <p class="client__block-edit client-link-edit">Edit</з>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Gender</p>
+                            <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your gender">
+                            <p class="client__block-edit client-link-edit">Edit</з>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Address</p>
+                            <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your adress">
+                            <p class="client__block-edit client-link-edit">Edit</з>
+                        </div>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                    <div class="client__block" id="content-2">
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Currency</p>
+                            <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your currency">
+                            <p class="client__block-edit client-link-edit">Edit</p>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Language</p>
+                            <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your language">
+                            <p class="client__block-edit client-link-edit">Edit</p>
+                        </div>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                    <div class="client__block client__payments" id="content-3">
+                      <div class="client__block-info">
+                        <p class="client__block-intro">Payment cards</p>
+                        <p class="client__block-text">Pay with new card</p>
+                        <a href="#" class="client__block-edit client__block-add" id="openBtn">Add card</a>
+                      </div>   
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-4" value="">
+                    <div class="client__block" id="content-4">
+                      <div class="client__blocks-pic">
+                        <div class="client__block_pic">
+                          <img src="img/Winter park.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                        <div class="client__block_pic">
+                          <img src="img/Machu Picchu.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                        <div class="client__block_pic">
+                          <img src="img/Hivar.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                        <div class="client__block_pic">
+                          <img src="img/Wadi Musa.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-5" value="">
+                    <div class="client__block" id="content-5">
+                      <div class="client__blocks-info">
+                        <div class="client__block-documents">
+                          <p class="client__block-intro">ID scan.pdf</p>
+                          <p class="client__block-edit client__block-remove">Remove</p>
+                        </div>
+                        <div class="client__block-documents">
+                          <p class="client__block-intro">Trip plan.doc</p>
+                          <p class="client__block-edit client__block-remove">Remove</p>
+                        </div>
+                      </div>
+                      <div class="client__block-link">
+                        <input type="file" id="client-upload" multiple onchange="showNameFile(this)">
+                        <label for="client-upload" class="client__link">Upload documents</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client__blocks client__blocks-mobile">
+                    <div class="client__info_block">
+                        <label for="tab-btn-1-mobile" class="client__info-text ">Personal details</label>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-1-mobile" value="">
+                    <div class="client__block" id="content-1-mobile">
+                      <div class="client__block-info">
+                          <p class="client__block-intro">Name</p>
+                          <input type="name" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your name">
+                          <p class="client__block-edit client-link-edit">Edit</з>
+                      </div>
+                      <div class="client__block-info">
+                          <p class="client__block-intro">Email address</p>
+                          <input type="email" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your email">
+                          <p class="client__block-edit client-link-edit">Edit</з>
+                      </div>
+                      <div class="client__block-info">
+                          <p class="client__block-intro">Phone number</p>
+                          <input type="tel" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your phone number">
+                          <p class="client__block-edit client-link-edit">Edit</з>
+                      </div>
+                      <div class="client__block-info">
+                          <p class="client__block-intro">Date of birth</p>
+                          <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your date of birthday">
+                          <p class="client__block-edit client-link-edit">Edit</з>
+                      </div>
+                      <div class="client__block-info">
+                          <p class="client__block-intro">Nationality</p>
+                          <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your nationality" >
+                          <p class="client__block-edit client-link-edit">Edit</з>
+                      </div>
+                      <div class="client__block-info">
+                          <p class="client__block-intro">Gender</p>
+                          <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your gender">
+                          <p class="client__block-edit client-link-edit">Edit</з>
+                      </div>
+                      <div class="client__block-info">
+                          <p class="client__block-intro">Address</p>
+                          <input type="text" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your adress">
+                          <p class="client__block-edit client-link-edit">Edit</з>
+                      </div>
+                    </div>
+                    <div class="client__info_block">
+                        <label for="tab-btn-2-mobile" class="client__info-text">Preferences</label>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-2-mobile" value="">
+                    <div class="client__block" id="content-2-mobile">
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Currency</p>
+                            <input type="name" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your currency">
+                            <p class="client__block-edit client-link-edit">Edit</p>
+                        </div>
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Language</p>
+                            <input type="name" readonly="readonly" class="client__block-text client__signature-edit" placeholder="Enter your language">
+                            <p class="client__block-edit client-link-edit">Edit</p>
+                        </div>
+                    </div>
+                    <div class="client__info_block">
+                        <label for="tab-btn-3-mobile" class="client__info-text">Payment Details</label>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-3-mobile" value="">
+                    <div class="client__block client__payments" id="content-3-mobile">
+                        <div class="client__block-info">
+                            <p class="client__block-intro">Payment cards</p>
+                            <p class="client__block-text">Pay with new card</p>
+                            <a href="#" class="client__block-edit client__block-add">Add card</a>
+                        </div>
+                    </div>
+                    <div class="client__info_block">
+                        <label for="tab-btn-4-mobile" class="client__info-text">My Bookings</label>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-4-mobile" value="">
+                    <div class="client__block" id="content-4-mobile">
+                      <div class="client__blocks-pic">
+                        <div class="client__block_pic">
+                          <img src="img/Winter park.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                        <div class="client__block_pic">
+                          <img src="img/Machu Picchu.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                        <div class="client__block_pic">
+                          <img src="img/Hivar.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                        <div class="client__block_pic">
+                          <img src="img/Wadi Musa.jpg" alt="Winter park" class="slider__bar-image">
+                          <div class="client__block-signature">
+                            <p class="client__signature-text">Winter Park Ski Holiday</p>
+                            <a href="#" class="client__signature-link" download="/files/file1.pdf">Downoload pdf</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client__info_block">
+                        <label for="tab-btn-5-mobile" class="client__info-text">My documents</label>
+                    </div>
+                    <input type="radio" name="tab-btn" id="tab-btn-5-mobile" value="">
+                    <div class="client__block" id="content-5-mobile">
+                      <div class="client__blocks-info">
+                        <div class="client__block-info">
+                          <p class="client__block-intro">ID scan.pdf</p>
+                          <a href="##" class="client__block-edit client__block-remove">Remove</a>
+                        </div>
+                        <div class="client__block-info">
+                          <p class="client__block-intro">Trip plan.doc</p>
+                          <a href="##" class="client__block-edit client__block-remove">Remove</a>
+                        </div>
+                      </div>
+                      <div class="client__block-link">
+                        <input type="file" id="client-upload" multiple onchange="showNameFile(this)">
+                        <label for="client-upload" class="client__link">Upload documents</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="client__card" id="clientCard">
+                  <div class="client__card-background"></div>    
+                  <div class="client__card__block">
+                    <div class="client__card__information">
+                        <h5 class="client__card__title">Payment information</h5>
+                        <div class="client__cards-wrapper">
+                          <div class="client__cards-credit">
+                            <div class="client-front">
+                              <div class="client-front-background">
+                                <svg version="1.1" id="cardfront" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 750 471" style="enable-background:new 0 0 750 471;" xml:space="preserve" width="100%" height="255px">
+                                  <path class="grey-background" id="cardfrontTop" d="M40,0h670c22.1,0,40,17.9,40,40v391c0,22.1-17.9,40-40,40H40c-22.1,0-40-17.9-40-40V40C0,17.9,17.9,0,40,0z"></path>
+                                  <path class="greydark-background"id="cardfrontBottom" d="M750,431V193.2c-217.6-57.5-556.4-13.5-750,24.9V431c0,22.1,17.9,40,40,40h670C732.1,471,750,453.1,750,431z"></path>
+                              </svg>
+                              </div>
+                              <div class="client__card-bank">
+                                <img src="img/chip.png" alt="">
+                                <div class="client__card-logo"></div>
+                              </div>
+                              <div class="client__card-numbers">
+                                <span class="client__card-signature">card number</span>
+                                <p class="client__card-text" id="clientShowCardnum">0123 4567 8910 1112</p>
+                              </div>
+                              <div class="client__card-info">
+                                <div class="client__card-name">
+                                  <span class="client__card-signature">cardholder name</span>
+                                  <p class=" client__card-holder" id="clientShowName">JOHN DOE</p>
+                                </div> 
+                                <div class="client__card-date">
+                                  <span class="client__card-signature">expiration</span>
+                                  <p class="client__card-intro" id="clientShowDate">01/23</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="client-back">
+                              <div class="client__card-info">
+                                <div class="client__card-name">
+                                  <p class="client__card-holder-back" id="clientShowNameBack">John Doe</p>
+                                </div>
+                                <div class="client__card-code">
+                                  <p class="client__card-cvc" id="clientShowCvc">985</p>
+                                </div>
+                              </div>
+                              <span class="client__card-signature">security code</span>
+                              <div class="client-background-lines">
+                                <div class="client-background-line"></div>
+                                <div class="client-background-line"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <form action="##" class="client__card-form">
+                            <div class="client__card-block">
+                              <label for="clientInputName">Name</label>
+                              <input type="name" id="clientInputName" maxlength="20" autocomplete="none">
+                            </div>
+                            <div class="client__card-block">
+                              <label for="client_input-cardnum">Card Number</label>
+                              <div class="client__cardnumber-wrapper">
+                                <input type="cardnumber" id="clientInputCardnum">
+                                <div class="client__card-logo-inp"></div>
+                              </div>
+                            </div>
+                            <div class="client__card-block client__card-block-small">
+                              <label for="clientInputDate">Expiration (mm/yy)</label>
+                              <input type="cardnumber" id="clientInputDate" maxlength="5">
+                            </div>
+                            <div class="client__card-block client__card-block-small">
+                              <label for="clientInputCvc">Security Code</label>
+                              <input type="cardnumber" id="clientInputCvc" maxlength="4">
+                            </div>
+                            <button class="client__card-btn" type="button">
+                              <span>Continue</span>
+                              <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                                <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+                              </svg>
+                            </button>
+                          </form>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+    </main>
+    <footer class="footer footer-client">
+        <div class="container">
+            <div class="footer_logo">
+                <img src="/svg/logo.svg" alt="" class="footer_logo-img">
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item footer__nav-item-packages _anim-items _anim-no-hide" ><a href="luxury.html" class="background-line footer__nav-link">Luxury packages</a></li>
+                    <li class="footer__nav-item footer__nav-item-book _anim-items _anim-no-hide"><a href="book.html" class="background-line footer__nav-link">Book with us</a></li>
+                    <li class="footer__nav-item footer__nav-item-call _anim-items _anim-no-hide"><a href="relations.html" class="background-line footer__nav-link">Call me back</a></li>
+                    <li class="footer__nav-item footer__nav-item-whylux _anim-items _anim-no-hide"><a href="whylux.html" class="background-line footer__nav-link">Why Lux Trips</a></li>
+                    <li class="footer__nav-item footer__nav-item-contact _anim-items _anim-no-hide"><a href="contact.html" class="background-line footer__nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer__under">
+                <span class="footer__under-signature">© 2021 All Rights Reserved | <br> Luxtrips</span>
+                <span class="footer__under-links"><a href="#" class="footer__under-link">Company Site</a> | <a href="#" class="footer__under-link">Privacy Policy</a></span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/client.js"></script>
+</body>
+</html>

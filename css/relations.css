@@ -1,0 +1,19 @@
+.relations {
+  padding-top: 100px;
+}
+
+.relations::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: url("../img/sky-background.jpg") no-repeat bottom/cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.relations-contact {
+  position: static;
+}
+/*# sourceMappingURL=relations.css.map */

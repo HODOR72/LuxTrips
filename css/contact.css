@@ -1,0 +1,155 @@
+.data {
+  padding-top: 100px;
+}
+
+.data::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: url("../img/sky-background.jpg") no-repeat bottom/cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.data__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.data__block {
+  width: 540px;
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #ffffff;
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 20px;
+  -webkit-transform: translate(-100%, 0px);
+          transform: translate(-100%, 0px);
+  opacity: 0;
+  -webkit-transition: all .8s ease 0s;
+  transition: all .8s ease 0s;
+}
+
+.data__block:last-child {
+  -webkit-transform: translate(100%, 0px);
+          transform: translate(100%, 0px);
+}
+
+.data__block._active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all .8s ease 0.2s;
+  transition: all .8s ease 0.2s;
+}
+
+.data__title {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 539px;
+  font-size: 60px;
+  margin-bottom: 30px;
+  -webkit-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  opacity: 0;
+  -webkit-transition: all .8s ease 0s;
+  transition: all .8s ease 0s;
+}
+
+.data__title._active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.data__info {
+  font-family: Manrope;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 7px;
+  max-width: 320px;
+}
+
+.data__contact {
+  font-size: 40px;
+  text-align: center;
+  color: #0C0B10;
+  margin-bottom: 15px;
+}
+
+.data span {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0C0B10;
+  margin-bottom: 15px;
+}
+
+.data__link {
+  display: inline-block;
+  background-color: #0c0b10;
+  border-radius: 74px;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0px;
+  width: 280px;
+}
+
+.data__mail {
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.map {
+  text-align: center;
+}
+
+.map__card {
+  height: 620px;
+  width: 100%;
+}
+
+.contact-restorative {
+  position: fixed;
+}
+
+@media screen and (max-width: 1080px) {
+  .data__blocks {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .data__block {
+    width: 100%;
+    padding: 50px 0px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

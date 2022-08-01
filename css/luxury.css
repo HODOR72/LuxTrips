@@ -1,0 +1,257 @@
+.luxury {
+  padding-top: 100px;
+}
+
+.luxury::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: url("../img/sky-background.jpg") no-repeat bottom/cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.luxury__title {
+  font-size: 60px;
+  text-align: center;
+  color: #0C0B10;
+  margin-bottom: 60px;
+}
+
+.luxury__wrapper {
+  width: 100%;
+}
+
+.luxury__find-blocks {
+  margin-bottom: 20px;
+}
+
+.luxury__info_block {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.luxury__block-date {
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  font-family: Manrope;
+  border: none;
+  padding: 0px;
+}
+
+.luxury ::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.form__select-selected {
+  position: relative;
+  z-index: 2;
+}
+
+.form__select-selected::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  background: url("/svg/select.svg") no-repeat 100%;
+}
+
+.form__custom-select {
+  width: 120px;
+  position: relative;
+}
+
+.form__custom-select-big {
+  width: 100%;
+}
+
+.form__custom-select select {
+  display: none;
+}
+
+.form__select-items div, .form__select-selected {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 18px;
+  color: #0C0B10;
+  cursor: pointer;
+}
+
+.form__select-items {
+  z-index: 99;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #E2D3CE;
+  overflow: hidden;
+}
+
+.form__select-items div {
+  padding: 10px 0px;
+  padding-left: 15px;
+}
+
+.form__select-hide {
+  display: none;
+}
+
+.form__select-items div:hover, .form__same-as-selected {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #E2D3CE;
+}
+
+.gallery {
+  margin-bottom: 80px;
+}
+
+.gallery__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(360px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  justify-items: center;
+  width: 100%;
+}
+
+.gallery__bar-pic {
+  margin-bottom: 25px;
+  opacity: 0;
+  -webkit-animation: imageHide 1.5s forwards;
+          animation: imageHide 1.5s forwards;
+}
+
+.gallery__btn {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.gallery__more {
+  text-align: center;
+}
+
+.find__info_block label {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 18px;
+  color: #0C0B10;
+}
+
+.find__info-checkbox {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Manrope;
+}
+
+.find__info-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #79655E;
+  border-radius: 3px;
+}
+
+.find__info-checkbox input:checked ~ .checkmark {
+  background: url("/svg/checkmark.svg") no-repeat center;
+}
+
+.find__info-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.find__info-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.luxury__info_block:last-child {
+  display: none;
+}
+
+.hide-img {
+  display: none;
+}
+
+.hide-img:nth-child(5) {
+  display: block;
+}
+
+.hide-img:nth-child(6) {
+  display: block;
+}
+
+@-webkit-keyframes imageHide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes imageHide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  .luxury__find-blocks {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .luxury__info_block {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hide-img:nth-child(5) {
+    display: none;
+  }
+  .hide-img:nth-child(6) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .luxury__info_block {
+    width: 100%;
+  }
+  .gallery__btn {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=luxury.css.map */
