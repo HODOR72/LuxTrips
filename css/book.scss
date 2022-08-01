@@ -1,44 +1,44 @@
-.requests{
-    padding-top: 100px;
-    position: relative;
-    &::after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 500px;
-        background: url("../img/sky-background.jpg") no-repeat bottom / cover;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-    &__title{
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    &__card{
-         padding-bottom: 30px;
-        border-radius: 10px;
-        text-align: center;
-        max-width: 540px;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-    }
-    &__text{
-        max-width: 380px;
-        margin:  0 auto;
-        font-family: Manrope;
-        font-size: 18px;
-        color: #000000;
-        line-height: 36px;
-        margin-bottom: auto;
-    }
-    &__card-book{
-        margin-bottom: 30px;
-        opacity: 1;
-        transform: translate(0px, 0px);
-    }
-    &__card-book img{
-        //transition: none;
-    }
+.requests {
+	padding-top: 100px;
+	position: relative;
+	&::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 500px;
+		background: url('../img/sky-background.jpg') no-repeat bottom / cover;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+	&__title {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	&__card {
+		padding-bottom: 30px;
+		border-radius: 10px;
+		text-align: center;
+		max-width: 540px;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+	}
+	&__text {
+		max-width: 380px;
+		margin: 0 auto;
+		font-family: Manrope;
+		font-size: 18px;
+		color: #000000;
+		line-height: 36px;
+		margin-bottom: auto;
+	}
+	&__card-book {
+		margin-bottom: 30px;
+		opacity: 1;
+		transform: translate(0px, 0px);
+	}
+	&__card-book img {
+		//transition: none;
+	}
 }

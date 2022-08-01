@@ -3,7 +3,7 @@
 }
 
 .form::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 500px;
@@ -101,14 +101,14 @@
 .form__block:nth-child(2) {
   width: 540px;
   padding: 30px 50px 50px 50px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
 }
 
 .form__signature {
   padding-left: 30px;
   font-family: Manrope;
-  color: #79655E;
+  color: #79655e;
 }
 
 .form-mobile {
@@ -130,14 +130,14 @@
 
 .form__block-forms span {
   font-size: 18px;
-  color: #79655E;
+  color: #79655e;
   padding-bottom: 20px;
 }
 
 .form__block_checkbox {
   position: relative;
   display: inline-block;
-  border: 2px solid #E2D3CE;
+  border: 2px solid #e2d3ce;
   border-radius: 74px;
 }
 
@@ -156,21 +156,21 @@
   font-family: 'Manrope';
   font-weight: 500;
   font-size: 18px;
-  color: #0C0B10;
+  color: #0c0b10;
 }
 
 .form__block_checkbox-active:after {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
-  background: #E2D3CE;
+  background: #e2d3ce;
   border-radius: 74px;
   z-index: -1;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .form__block_checkbox input:checked + label .form__block_checkbox-active:after {
@@ -178,43 +178,43 @@
 }
 
 .form-icon-destination::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 20px;
   width: 100%;
   height: 100%;
-  background: url("/svg/icon_destination.svg") left no-repeat;
+  background: url("../svg/icon_destination.svg") left no-repeat;
 }
 
 .form-icon-calendar::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
   width: 100%;
   height: 100%;
-  background: url("/svg/icon_calendar.svg") left no-repeat;
+  background: url("../svg/icon_calendar.svg") left no-repeat;
 }
 
 .form-icon-head::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
   width: 100%;
   height: 100%;
-  background: url("/svg/head.svg") left no-repeat;
+  background: url("../svg/head.svg") left no-repeat;
 }
 
 .form-icon-kids::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 15px;
   width: 100%;
   height: 100%;
-  background: url("/svg/kids.svg") left no-repeat;
+  background: url("../svg/kids.svg") left no-repeat;
 }
 
 .form__block-form-meduim {
@@ -231,7 +231,7 @@
 
 .form__block-form-input {
   width: 100%;
-  border: 2px solid #E2D3CE;
+  border: 2px solid #e2d3ce;
   border-radius: 75px;
   height: 55px;
   padding-left: 45px;
@@ -256,7 +256,7 @@
   width: 440px;
   height: 130px;
   border-radius: 20px;
-  border: 2px solid #E2D3CE;
+  border: 2px solid #e2d3ce;
   resize: none;
   font-size: 18px;
 }
@@ -269,19 +269,19 @@
 .form__block span {
   margin: 0 auto;
   text-transform: uppercase;
-  color: #0C0B10;
+  color: #0c0b10;
   font-size: 16px;
 }
 
 .form__block-link {
-  border: 1px solid #0C0B10;
+  border: 1px solid #0c0b10;
   border-radius: 61px;
   width: 210px;
   padding: 15px 0px;
   font-size: 24px;
   text-align: center;
   text-transform: uppercase;
-  color: #0C0B10;
+  color: #0c0b10;
   -webkit-transition: ease-out 0.5s;
   transition: ease-out 0.5s;
 }
@@ -298,10 +298,10 @@
 
 .form__select-selected {
   position: relative;
-  border: 2px solid #E2D3CE;
+  border: 2px solid #e2d3ce;
   border-radius: 75px;
   padding: 17px 30px 17px 35px;
-  background: url("/svg/select.svg") no-repeat 95%;
+  background: url("../svg/select.svg") no-repeat 95%;
 }
 
 .form__custom-select {
@@ -329,7 +329,7 @@
   font-family: 'Manrope';
   font-weight: 500;
   font-size: 18px;
-  color: #0C0B10;
+  color: #0c0b10;
   cursor: pointer;
 }
 
@@ -343,7 +343,7 @@
   left: 0;
   right: 0;
   background-color: white;
-  border: 1px solid #E2D3CE;
+  border: 1px solid #e2d3ce;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -360,7 +360,7 @@
 .form__select-items div:hover, .form__same-as-selected {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: #E2D3CE;
+  background-color: #e2d3ce;
 }
 
 @media screen and (max-width: 992px) {
@@ -415,7 +415,7 @@
     font-family: 'Manrope';
     font-weight: 500;
     font-size: 18px;
-    color: #0C0B10;
+    color: #0c0b10;
   }
   .form__block-forms:last-of-type {
     display: -webkit-box;
@@ -462,7 +462,7 @@
     text-align: center;
     margin-bottom: 30px;
     text-transform: uppercase;
-    color: #0C0B10;
+    color: #0c0b10;
     font-size: 16px;
     padding: 0px;
   }

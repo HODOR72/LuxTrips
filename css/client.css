@@ -4,7 +4,7 @@
 }
 
 .client::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 500px;
@@ -31,8 +31,8 @@
 
 .client__info_block {
   width: 250px;
-  background: #E2D3CE;
-  border: 1px solid #FFFFFF;
+  background: #e2d3ce;
+  border: 1px solid #ffffff;
 }
 
 .client__info-text {
@@ -70,7 +70,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 13px;
-  border-bottom: 1px solid #E2D3CE;
+  border-bottom: 1px solid #e2d3ce;
   margin-bottom: 20px;
 }
 
@@ -79,7 +79,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 13px;
-  border-bottom: 1px solid #E2D3CE;
+  border-bottom: 1px solid #e2d3ce;
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,7 +89,7 @@
 .client__block-intro {
   font-family: 'Manrope';
   font-size: 18px;
-  color: #7A7A7A;
+  color: #7a7a7a;
   text-overflow: ellipsis;
   display: block;
   display: -webkit-box;
@@ -104,7 +104,7 @@
   font-size: 18px;
   color: #000000;
   cursor: default;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .client__block-text::-webkit-input-placeholder {
@@ -138,15 +138,15 @@
 .client__signature-active {
   cursor: text;
   opacity: 1;
-  -webkit-transition: .1s ease;
-  transition: .1s ease;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
 }
 
 .client__block-edit {
   font-family: 'Manrope';
   font-weight: 500;
   font-size: 18px;
-  color: #4C64A1;
+  color: #4c64a1;
   text-align: right;
   cursor: pointer;
 }
@@ -160,9 +160,9 @@
   width: 80%;
   margin: 0 auto;
   padding: 12px;
-  background: #0C0B10;
+  background: #0c0b10;
   border-radius: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -199,7 +199,7 @@
 .client__signature-text {
   font-size: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 98.5%;
   margin-bottom: 20px;
 }
@@ -208,12 +208,12 @@
   font-size: 16px;
   text-align: center;
   text-transform: uppercase;
-  color: #0C0B10;
+  color: #0c0b10;
   padding: 11px;
   display: inline-block;
   width: 150px;
   border-radius: 60px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .client__img {
@@ -234,14 +234,14 @@
   cursor: pointer;
 }
 
-.client__blocks input[type="radio"] {
+.client__blocks input[type='radio'] {
   display: none;
 }
 
 .client__info-active {
-  background-color: #FFFFFF;
-  -webkit-transition: background-color .5s ease;
-  transition: background-color .5s ease;
+  background-color: #ffffff;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 
 @-webkit-keyframes showBlock {
@@ -297,8 +297,8 @@
   height: 100%;
   background-color: rgba(206, 202, 202, 0.705);
   pointer-events: none;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .client__credit-active {
@@ -332,7 +332,7 @@
   -webkit-font-smoothing: antialiased;
   color: #47525d;
   border-radius: 25px;
-  line-height: .6em;
+  line-height: 0.6em;
   width: 100%;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -357,8 +357,8 @@
   background-color: #616161;
   -webkit-transform: rotateX(180deg);
   transform: rotateY(180deg);
-  -webkit-transition: background-color .5s ease;
-  transition: background-color .5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 
 .client-rotate {
@@ -378,12 +378,12 @@
   left: 0;
   background-color: black;
   height: 15%;
-  content: "";
+  content: '';
 }
 
 .client__card-security {
   border-radius: 5px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-bottom: 10px;
   padding-left: 15px;
   display: -webkit-box;
@@ -422,7 +422,7 @@
 }
 
 .client-background-line {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 7px;
   display: inline-block;
   margin-bottom: 10px;
@@ -463,7 +463,7 @@
 }
 
 .client__card-text {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 37px;
   line-height: 0.6em;
 }
@@ -473,15 +473,15 @@
 }
 
 .client__card-signature {
-  color: #FFFFFF;
-  opacity: .8;
+  color: #ffffff;
+  opacity: 0.8;
   font-size: 19px;
   display: block;
   margin-bottom: 10px;
 }
 
 .client__card-intro {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Manrope';
   line-height: 0.66em;
 }
@@ -502,7 +502,7 @@
 
 .client__card-info:nth-child(1) {
   padding-left: 5px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-bottom: 10px;
   position: relative;
 }
@@ -511,14 +511,14 @@
   height: 100%;
   width: 55px;
   z-index: 1;
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
 
 .client__card-holder {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 17.5px;
   text-transform: uppercase;
   line-height: 0.66em;
@@ -627,8 +627,8 @@
 
 .client__card-btn {
   width: 200px;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   padding: 10px 20px;
   border-radius: 100px;
   background-color: transparent;
@@ -653,10 +653,10 @@
 .client__card-btn > svg {
   width: 34px;
   margin-left: 10px;
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
 .client__card-btn:hover svg {
@@ -805,116 +805,116 @@
 
 .client-front .lightcolor,
 .client-front .darkcolor {
-  -webkit-transition: fill .5s;
-  transition: fill .5s;
+  -webkit-transition: fill 0.5s;
+  transition: fill 0.5s;
 }
 
 .lightblue-background {
-  fill: #03A9F4;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  fill: #03a9f4;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .lightbluedark-background {
-  fill: #0288D1;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  fill: #0288d1;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .red-background {
   fill: #ef5350;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .reddark-background {
   fill: #d32f2f;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .purple-background {
   fill: #ab47bc;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .purpledark-background {
   fill: #7b1fa2;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .cyan-background {
   fill: #26c6da;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .cyandark-background {
   fill: #0097a7;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .green-background {
   fill: #66bb6a;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .greendark-background {
   fill: #388e3c;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .lime-background {
   fill: #d4e157;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .limedark-background {
   fill: #afb42b;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .yellow-background {
   fill: #ffeb3b;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .yellowdark-background {
   fill: #f9a825;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .orange-background {
   fill: #ff9800;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .orangedark-background {
   fill: #ef6c00;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .grey-background {
   fill: #bdbdbd;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 .greydark-background {
   fill: #616161;
-  -webkit-transition: fill .5s ease;
-  transition: fill .5s ease;
+  -webkit-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
 }
 
 @font-face {

@@ -1,16 +1,16 @@
-.relations{
-    padding-top: 100px;
-    &::after{
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 500px;
-        background: url("../img/sky-background.jpg") no-repeat bottom / cover;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-    &-contact{
-        position: static;
-    }
+.relations {
+	padding-top: 100px;
+	&::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 500px;
+		background: url('../img/sky-background.jpg') no-repeat bottom / cover;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+	&-contact {
+		position: static;
+	}
 }
