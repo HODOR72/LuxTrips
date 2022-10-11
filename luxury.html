@@ -1,272 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/luxury.css">
-
-    <title>LuxTrips</title>
-</head>
-<body class="body">
-   <header class="header">
-        <div class="header__wrapper">
-            <a href="#contact" class="header__link-mobile js-scroll">Call me</a>
-            <div class="header__logo">
-                <a href="index.html" class="header__logo-link"><img src="./svg/logo.svg" alt="Header Logo" class="header__logo-img"></a>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
-                    <li class="header__nav-item"><a href="luxury.html" class="header__nav-link">Luxury packages</a></li>
-                    <li class="header__nav-item"><a href="book.html" class="header__nav-link">Book with us</a></li>
-                    <li class="header__nav-item"><a href="whylux.html" class="header__nav-link">Why Lux Trips</a></li>
-                    <li class="header__nav-item"><a href="contact.html" class="header__nav-link">Contact</a></li>
-                    <li class="header__nav-item"><a href="client.html" class="header__nav-link">Client Area</a></li>
-                </ul>
-            </nav>
-            <div class="header__link">
-                <a href="relations.html"><img src="./svg/button call me.svg" alt="Call me back"></a>
-            </div>
-            <div class="header__burger burger">
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="luxury">
-            <div class="container">
-                <h2 class="luxury__title">Luxury Packages</h2>
-                <div class="luxury__find">
-                    <div class="find__wrapper luxury__wrapper">
-                        <div class="find__block-under"></div>
-                        <div class="find__block">
-                            <p class="find__block-text">Find your journey</p>
-                        </div>
-                        <div class="find__info luxury__find-blocks">
-                            <div class="luxury__info_block info-icon-destination">
-                                <h2 class="info_block-title">Luxury Trips</h2>
-                                 <div class="form__custom-select form__custom-select-big">
-                                    <select class="form__select ">
-                                        <option value="0">Choose type destinations</option>
-                                        <option value="1">Romantic winter destinations</option>
-                                        <option value="2">Interesting spring destinations</option>
-                                        <option value="3">Exciting summer destinations</option>
-                                        <option value="4">Calm autumn destinations</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="luxury__info_block info-icon-calendar">
-                                <h2 class="info_block-title">When</h2>
-                                <input type="date" value="2022-12-14" min="2022-12-14" max="2023-03-25" class='luxury__block-date'>
-                            </div>
-                            <div class="luxury__info_block info-icon-travellers">
-                                <h2 class="info_block-title">Travellers</h2>
-                                <div class="form__custom-select">
-                                    <select class="form__select">
-                                        <option value="0">Choose</option>
-                                        <option value="1">1 persons</option>
-                                        <option value="2">2 persons</option>
-                                        <option value="3">3 persons</option>
-                                        <option value="4">4 persons</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="luxury__info_block">
-                            <label class="find__info-checkbox">Group Tours
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                            </div>
-                            <div class="luxury__info_block">
-                                <label class="find__info-checkbox">Customise Tours
-                                    <input type="checkbox" checked>
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                            <div class="luxury__info_block info-icon-search">
-                                <a href="#" class="info_block-link">finds</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="gallery">
-            <div class="container">
-                <div class="slider__bar gallery__wrapper">    
-                    <div class="rated__slider__bar-pic gallery__bar-pic">
-                        <img src="./img/Winter park.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Austria</p>
-                            <h3 class="rated__slider__bar-title">Winter Park Ski Holiday</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 1490</p>
-                            <img src="./svg/rating-4.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>  
-                    <div class="rated__slider__bar-pic gallery__bar-pic">
-                        <img src="./img/Machu Picchu.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Peru</p>
-                            <h3 class="rated__slider__bar-title">Machu Picchu</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 2300</p>
-                            <img src="./svg/rating-5.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic">
-                        <img src="./img/Hivar.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Croatia</p>
-                            <h3 class="rated__slider__bar-title">Hvar</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 4500</p>
-                            <img src="./svg/rating-4.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic">
-                        <img src="./img/Wadi Musa.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Jordan</p>
-                            <h3 class="rated__slider__bar-title">Wadi Musa</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 3400</p>
-                            <img src="./svg/rating-4.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Gullfos.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Iceland</p>
-                            <h3 class="rated__slider__bar-title">Gullfos</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 3900</p>
-                            <img src="./svg/rating-4.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Jiuzhaigou.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">China</p>
-                            <h3 class="rated__slider__bar-title">Jiuzhaigou</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 2700</p>
-                            <img src="./svg/rating-5.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Alesund.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Norway</p>
-                            <h3 class="rated__slider__bar-title">Alesund</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 2200</p>
-                            <img src="./svg/rating-4.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Barolo.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Italy</p>
-                            <h3 class="rated__slider__bar-title">Barolo</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 1200</p>
-                            <img src="./svg/rating-4.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Godafoss.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Iceland</p>
-                            <h3 class="rated__slider__bar-title">Godafoss</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 2300</p>
-                            <img src="./svg/rating-5.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                     <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Madrid.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Spain</p>
-                            <h3 class="rated__slider__bar-title">Madrid</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 4800</p>
-                            <img src="./svg/rating-4.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Golden Gate.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">San Francisco</p>
-                            <h3 class="rated__slider__bar-title">Golden Gate</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 1700</p>
-                            <img src="./svg/rating-5.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                    <div class="rated__slider__bar-pic gallery__bar-pic hide-img">
-                        <img src="./img/Odin.jpg" alt="Winter park" class="rated__slider__bar-image"> 
-                        <div class="rated__slider__bar-info gallery__bar-info">
-                            <p class="rated__slider__bar-text slider__bar-place">Odin</p>
-                            <h3 class="rated__slider__bar-title">Baffin land</h3>
-                            <span class="rated__slider__bar-text">From</span>
-                            <p class="rated__slider__bar-price">€ 4200</p>
-                            <img src="./svg/rating-5.svg" alt="Rating" class="rated__slider__bar-rating">
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery__more">
-                     <img src="./img/button_load more.png" alt="Button load more" class="gallery__btn">
-                </div>
-            </div>
-        </section>
-        <section class="subscribe-luxury">
-            <div class="subscribe__block">
-                <img src="./img/Subscribe.png" alt="" class="subscribe-img">
-                <div class="subscribe__block-inner">
-                    <h5 class="subscribe_block-title _anim-items _anim-no-hide">Get weekly inspiration and expert advice</h5>
-                    <p class="subscribe_block-text _anim-items _anim-no-hide">Sign up for our Weekly Newsletter</p>
-                    <form action="##" class="subscribe__form">
-                        <input type="text" placeholder="Email adress" class="subscribe_form-input _anim-items _anim-no-hide">
-                        <button class="subscribe_form-btn _anim-items _anim-no-hide" type="button">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_logo">
-                <img src="./svg/logo.svg" alt="" class="footer_logo-img _anim-items _anim-no-hide">
-            </div>
-            <nav class="footer__nav">
-                <ul class="footer__nav-list">
-                    <li class="footer__nav-item footer__nav-item-packages _anim-items _anim-no-hide" ><a href="luxury.html" class="background-line footer__nav-link">Luxury packages</a></li>
-                    <li class="footer__nav-item footer__nav-item-book _anim-items _anim-no-hide"><a href="book.html" class="background-line footer__nav-link">Book with us</a></li>
-                    <li class="footer__nav-item footer__nav-item-call _anim-items _anim-no-hide"><a href="relations.html" class="background-line footer__nav-link">Call me back</a></li>
-                    <li class="footer__nav-item footer__nav-item-whylux _anim-items _anim-no-hide"><a href="whylux.html" class="background-line footer__nav-link">Why Lux Trips</a></li>
-                    <li class="footer__nav-item footer__nav-item-contact _anim-items _anim-no-hide"><a href="contact.html" class="background-line footer__nav-link">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="footer__under">
-                <span class="footer__under-signature">© 2021 All Rights Reserved | <br> Luxtrips</span>
-                <span class="footer__under-links"><a href="#" class="footer__under-link">Company Site</a> | <a href="#" class="footer__under-link">Privacy Policy</a></span>
-            </div>
-        </div>
-    </footer>
-    <script src="js/main.js"></script>
-    <script>
-        document.querySelector(".gallery__btn").addEventListener("click", function() {
-            const imgHide = document.querySelectorAll(".hide-img");
-            this.classList.add("hide-img");
-            for(let element of imgHide){
-                element.classList.remove('hide-img');
-            }
-        });
-    </script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/luxury.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Forum&family=Manrope:wght@300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>LuxTrips</title>
+	</head>
+	<body class="body">
+		<header class="header">
+			<div class="header__wrapper">
+				<a href="#contact" class="header__link-mobile js-scroll">Call me</a>
+				<div class="header__logo">
+					<a href="index.html" class="header__logo-link"
+						><img
+							src="./svg/logo.svg"
+							alt="Header Logo"
+							class="header__logo-img"
+					/></a>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__nav-list">
+						<li class="header__nav-item">
+							<a href="index.html" class="header__nav-link">Home</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="luxury.html" class="header__nav-link">Luxury packages</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="book.html" class="header__nav-link">Book with us</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="whylux.html" class="header__nav-link">Why Lux Trips</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="contact.html" class="header__nav-link">Contact</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="client.html" class="header__nav-link">Client Area</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__link">
+					<a href="relations.html"
+						><img src="./svg/button call me.svg" alt="Call me back"
+					/></a>
+				</div>
+				<div class="header__burger burger">
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="luxury">
+				<div class="container">
+					<h2 class="luxury__title">Luxury Packages</h2>
+					<div class="luxury__find">
+						<div class="find__wrapper luxury__wrapper">
+							<div class="find__block-under"></div>
+							<div class="find__block">
+								<p class="find__block-text">Find your journey</p>
+							</div>
+							<div class="find__info luxury__find-blocks">
+								<div class="luxury__info_block info-icon-destination">
+									<h2 class="info_block-title">Luxury Trips</h2>
+									<div class="form__custom-select form__custom-select-big">
+										<select class="form__select">
+											<option value="0">Choose type destinations</option>
+											<option value="1">Romantic winter destinations</option>
+											<option value="2">Interesting spring destinations</option>
+											<option value="3">Exciting summer destinations</option>
+											<option value="4">Calm autumn destinations</option>
+										</select>
+									</div>
+								</div>
+								<div class="luxury__info_block info-icon-calendar">
+									<h2 class="info_block-title">When</h2>
+									<input
+										type="date"
+										value="2022-12-14"
+										min="2022-12-14"
+										max="2023-03-25"
+										class="luxury__block-date"
+									/>
+								</div>
+								<div class="luxury__info_block info-icon-travellers">
+									<h2 class="info_block-title">Travellers</h2>
+									<div class="form__custom-select">
+										<select class="form__select">
+											<option value="0">Choose</option>
+											<option value="1">1 persons</option>
+											<option value="2">2 persons</option>
+											<option value="3">3 persons</option>
+											<option value="4">4 persons</option>
+										</select>
+									</div>
+								</div>
+								<div class="luxury__info_block">
+									<label class="find__info-checkbox"
+										>Group Tours
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								<div class="luxury__info_block">
+									<label class="find__info-checkbox"
+										>Customise Tours
+										<input type="checkbox" checked />
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								<div class="luxury__info_block info-icon-search">
+									<a href="#" class="info_block-link">finds</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<div class="container">
+					<div class="slider__bar gallery__wrapper">
+						<div class="rated__slider__bar-pic gallery__bar-pic">
+							<img
+								src="./img/Winter park.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Austria</p>
+								<h3 class="rated__slider__bar-title">
+									Winter Park Ski Holiday
+								</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 1490</p>
+								<img
+									src="./svg/rating-4.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic">
+							<img
+								src="./img/Machu Picchu.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Peru</p>
+								<h3 class="rated__slider__bar-title">Machu Picchu</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 2300</p>
+								<img
+									src="./svg/rating-5.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic">
+							<img
+								src="./img/Hivar.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Croatia</p>
+								<h3 class="rated__slider__bar-title">Hvar</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 4500</p>
+								<img
+									src="./svg/rating-4.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic">
+							<img
+								src="./img/Wadi Musa.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Jordan</p>
+								<h3 class="rated__slider__bar-title">Wadi Musa</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 3400</p>
+								<img
+									src="./svg/rating-4.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Gullfos.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Iceland</p>
+								<h3 class="rated__slider__bar-title">Gullfos</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 3900</p>
+								<img
+									src="./svg/rating-4.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Jiuzhaigou.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">China</p>
+								<h3 class="rated__slider__bar-title">Jiuzhaigou</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 2700</p>
+								<img
+									src="./svg/rating-5.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Alesund.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Norway</p>
+								<h3 class="rated__slider__bar-title">Alesund</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 2200</p>
+								<img
+									src="./svg/rating-4.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Barolo.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Italy</p>
+								<h3 class="rated__slider__bar-title">Barolo</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 1200</p>
+								<img
+									src="./svg/rating-4.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Godafoss.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Iceland</p>
+								<h3 class="rated__slider__bar-title">Godafoss</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 2300</p>
+								<img
+									src="./svg/rating-5.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Madrid.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Spain</p>
+								<h3 class="rated__slider__bar-title">Madrid</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 4800</p>
+								<img
+									src="./svg/rating-4.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Golden Gate.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">
+									San Francisco
+								</p>
+								<h3 class="rated__slider__bar-title">Golden Gate</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 1700</p>
+								<img
+									src="./svg/rating-5.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+						<div class="rated__slider__bar-pic gallery__bar-pic hide-img">
+							<img
+								src="./img/Odin.jpg"
+								alt="Winter park"
+								class="rated__slider__bar-image"
+							/>
+							<div class="rated__slider__bar-info gallery__bar-info">
+								<p class="rated__slider__bar-text slider__bar-place">Odin</p>
+								<h3 class="rated__slider__bar-title">Baffin land</h3>
+								<span class="rated__slider__bar-text">From</span>
+								<p class="rated__slider__bar-price">€ 4200</p>
+								<img
+									src="./svg/rating-5.svg"
+									alt="Rating"
+									class="rated__slider__bar-rating"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="gallery__more">
+						<img
+							src="./img/button_load more.png"
+							alt="Button load more"
+							class="gallery__btn"
+						/>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe-luxury">
+				<div class="subscribe__block">
+					<img src="./img/Subscribe.png" alt="" class="subscribe-img" />
+					<div class="subscribe__block-inner">
+						<h5 class="subscribe_block-title _anim-items _anim-no-hide">
+							Get weekly inspiration and expert advice
+						</h5>
+						<p class="subscribe_block-text _anim-items _anim-no-hide">
+							Sign up for our Weekly Newsletter
+						</p>
+						<form action="##" class="subscribe__form">
+							<input
+								type="text"
+								placeholder="Email adress"
+								class="subscribe_form-input _anim-items _anim-no-hide"
+							/>
+							<button
+								class="subscribe_form-btn _anim-items _anim-no-hide"
+								type="button"
+							>
+								Subscribe
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer_logo">
+					<img
+						src="./svg/logo.svg"
+						alt=""
+						class="footer_logo-img _anim-items _anim-no-hide"
+					/>
+				</div>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li
+							class="footer__nav-item footer__nav-item-packages _anim-items _anim-no-hide"
+						>
+							<a href="luxury.html" class="background-line footer__nav-link"
+								>Luxury packages</a
+							>
+						</li>
+						<li
+							class="footer__nav-item footer__nav-item-book _anim-items _anim-no-hide"
+						>
+							<a href="book.html" class="background-line footer__nav-link"
+								>Book with us</a
+							>
+						</li>
+						<li
+							class="footer__nav-item footer__nav-item-call _anim-items _anim-no-hide"
+						>
+							<a href="relations.html" class="background-line footer__nav-link"
+								>Call me back</a
+							>
+						</li>
+						<li
+							class="footer__nav-item footer__nav-item-whylux _anim-items _anim-no-hide"
+						>
+							<a href="whylux.html" class="background-line footer__nav-link"
+								>Why Lux Trips</a
+							>
+						</li>
+						<li
+							class="footer__nav-item footer__nav-item-contact _anim-items _anim-no-hide"
+						>
+							<a href="contact.html" class="background-line footer__nav-link"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__under">
+					<span class="footer__under-signature"
+						>© 2021 All Rights Reserved | <br />
+						Luxtrips</span
+					>
+					<span class="footer__under-links"
+						><a href="#" class="footer__under-link">Company Site</a> |
+						<a href="#" class="footer__under-link">Privacy Policy</a></span
+					>
+				</div>
+			</div>
+		</footer>
+		<script src="js/main.js"></script>
+		<script>
+			document
+				.querySelector('.gallery__btn')
+				.addEventListener('click', function () {
+					const imgHide = document.querySelectorAll('.hide-img')
+					this.classList.add('hide-img')
+					for (let element of imgHide) {
+						element.classList.remove('hide-img')
+					}
+				})
+		</script>
+	</body>
 </html>
